@@ -30,7 +30,7 @@ Because it is easy to overload the gain control on a receiver so you may find th
 
 **So how can I get these boards ? Do you sell them ?**
 
-I have included Fritzing source files and Gerbers so you should be able to get these boards made locally. I have used OSH Park (United States) and Aisler (Germany) before with great success at a good price if you're not in a rush. Both of those companies ship internationally. I don't sell the boards (either bare or assembled) but if you email me I might have a spare looking for a home. I will ask you to consider making a small donation to MIND or Macmillan Cancer Support if I send you a board. I am in the UK but can probably send a couple of boards to the EU without breaking the bank. Please be sure to let me know what your prefered board type is and an alternative in case your first choice is not availabke and I'll see what I can do.
+I have included Fritzing source files and Gerbers so you should be able to get these boards made locally. I have used OSH Park (United States) and Aisler (Germany) before with great success at a good price if you're not in a rush. Both of those companies ship internationally. I don't sell the boards (either bare or assembled) but if you email me I might have a spare looking for a home. I will ask you to consider making a small donation to MIND or Macmillan Cancer Support if I send you a board. I am in the UK but can probably send a couple of boards to the EU without breaking the bank. Please be sure to let me know what your prefered board type is and an alternative in case your first choice is not available and I'll see what I can do.
 
 **What parts do I need ? Where can I get them ?**
 
