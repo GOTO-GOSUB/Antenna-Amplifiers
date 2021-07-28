@@ -28,6 +28,10 @@ These are simple circuits to boost the output of the transmitter part of Henner 
 
 Because it is easy to overload the gain control on a receiver so you may find that using these circuits actually make the performance of nearby timepieces worse. For example, I can set a problematic wall clock from 3ft using this and a ferrite for an antenna, but a radio controlled desk clock 6ft away cannot sync when this is running. Oh yes, there is also the possibility that blasting out RF might be illegal in some parts of the world so just set it to the 3.3v drive level and forget I even mentioned the 5v option. But let's be honest here - the signal is still very weak, even with the amplifier. Plus if you follow my example you will quickly discover that ferrites make awful transmitting antennas as they saturate at low levels and become ineffective very quickly.
 
+Just 7 turns of 22AWG tinned copper wire works wonders:
+
+![Setting a watch with 7 turns of 22AWG TCW for a simple antenna](https://github.com/GOTO-GOSUB/Antenna-Amplifiers/blob/f041ddb4def2a57d2a17181c06081b72f2764d4b/Amplifier%20Images/Setting%20watch%20with%207%20turns%20of%2022AWG%20TCW.jpg)
+
 **So how can I get these boards ? Do you sell them ?**
 
 I have included Fritzing source files and Gerbers so you should be able to get these boards made locally. I have used OSH Park (United States) and Aisler (Germany) before with great success at a good price if you're not in a rush. Both of those companies ship internationally. I don't sell the boards (either bare or assembled) but if you email me I might have a spare looking for a home. I will ask you to consider making a small donation to MIND or Macmillan Cancer Support if I send you a board. I am in the UK but can probably send a couple of boards to the EU without breaking the bank. Please be sure to let me know what your prefered board type is and an alternative in case your first choice is not available and I'll see what I can do.
