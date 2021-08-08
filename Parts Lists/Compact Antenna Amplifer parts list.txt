@@ -1,0 +1,52 @@
+Parts list - Antenna Amplifier.
+
+Compact Antenna Amplifier (can fit inside the official Pi Zero GPIO case):
+
+Required:
+2 x 100R 0.25W resistors (eg: https://www.ebay.co.uk/itm/263898843941 for all resistor values)
+1 x 4.7K 0.25W resistor
+1 x 200R 0.25W resistor
+1 x 2N3904 T092 tansistor (eg: https://www.ebay.co.uk/itm/263708027071)
+Minimum of 12 pin or breakaway / cut back female header or 2 x 6 pin female header (these work for this purpose: https://amazon.co.uk/gp/product/B088PWBVFL)
+Some wire for general configuration.
+An antenna - could be wire or a tuned ferrite. See below.
+Some insulating tape for the underside so as to not short on the Pi's microSD card holder.
+
+Optional:
+1 x 1nF ceramic disc capacitor (eg https://www.ebay.co.uk/itm/263699742253)
+1 x small 3 pin THT SPDT switch or a wire link (eg https://www.ebay.co.uk/itm/274395236531) to select the VCC supply voltage, or header pins and jumper link
+1 x 6x3x5mm push button (eg https://thepihut.com/products/tactile-switch-buttons-6mm-slim-x-20-pack) for the "Shutdown" feature.
+1 x Tuned ferrite antenna for your region (eg https://www.universal-solder.ca/product/60khz-fine-tuned-loop-stick-antenna-for-atomic-clock-receiver/  or  https://www.universal-solder.ca/product/77-5khz-fine-tuned-loop-stick-antenna-for-dcf77-receiver/)
+Cable ties and bases to secure your chosen antenna.
+
+
+Notes:
+1. The amplifier will not work until the VCC has been set (either 3V3 or 5V).
+This can be done with a wire link, header pins and a jumper link or a switch,
+depending on how often you are likely to change it. Please note that if you
+plan on installing this in a case you will most likely have to use a wire link
+due to the height of a switch or the header pins.
+
+2. The shutdown button is entirely optional however if fitted this may prevent
+the board from fitting inside of a case due to the height. You can of course
+solder wires to the PCB and take it to a button of your choice and fix this
+outside of the case or not bother with it at all. I liked it, but hey.
+
+3. The 1nF capacitor is not required when using a pre-tuned (ferrite) antenna
+or a simple coil of wire. If not used the capacitor must be replaced with a
+wire link. The purpose of this capacitor was to tune the ferrite that Andreas
+Spiess made (see his video) and will be included in a pre-tuned ferrite and is
+not required at all if just using several turns of wire in open air.
+
+4. Ferrite antennas can be highly effective in low power applications such as
+this however they should be tuned to your requirement. If you wish to buy a
+pre-tuned ferrite I suggest those from Universal Solder.
+
+For MSF (UK), WWVB (United States) and JJY-60 (Japan) use the 60Khz antenna:
+https://www.universal-solder.ca/product/60khz-fine-tuned-loop-stick-antenna-for-atomic-clock-receiver/
+
+For DCF77 (Germany) use the 77.5Khz antenna:
+https://www.universal-solder.ca/product/77-5khz-fine-tuned-loop-stick-antenna-for-dcf77-receiver/
+
+5. If fitting into a case the capacitor (if fitted) and transistor should have
+their leads bent flat to the PCB in order to reduce their height.
