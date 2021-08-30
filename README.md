@@ -42,7 +42,7 @@ I have included Fritzing source files and Gerbers so you should be able to get t
 
 Please see the parts list attached for your choice of board. I have included links to suppliers of suitable parts so you can either buy them from there or confirm the specification if you would rather buy elsewhere. Please note that some parts are optional such as the shutdown button and you may wish to use wire links instead of switches to keep the overall height down if putting it into a case. If you are considering buying a pre-made tuned ferrite, please be sure to buy one that is correct for your region and to replace the capacitor with a wire link instead as this is not required. The capacitor is also not required (replace it with a wire link) if you are just going to use a coil of wire for your antenna. This is all in the parts lists, so don't worry.
 
-**What is the watch shown in the photographs ? ?**
+**What is the watch shown in the photographs ?**
 
 That is a Casio MTG-9000U G-Shock Solar Waveceptor. I bought it new what must be close to 20 years ago now and it's still going strong, although the rechargeable battery was showing signs of wear about a decade ago so I replaced that. Casio still make radio controlled watches that start at approx £35 for the WV-58U-1AVES.
 
