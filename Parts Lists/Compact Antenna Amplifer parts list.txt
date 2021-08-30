@@ -6,7 +6,7 @@ Required:
 2 x 100R 0.25W resistors (eg: https://www.ebay.co.uk/itm/263898843941 for all resistor values)
 1 x 4.7K 0.25W resistor
 1 x 200R 0.25W resistor
-1 x 2N3904 T092 tansistor (eg: https://www.ebay.co.uk/itm/263708027071) or (2222A)
+1 x 2N3904 T092 tansistor (eg: https://www.ebay.co.uk/itm/263708027071) or PN2222A
 Minimum of 12 pin or breakaway / cut back female header or 2 x 6 pin female header (these work for this purpose: https://amazon.co.uk/gp/product/B088PWBVFL)
 Some wire for general configuration.
 An antenna - could be wire or a tuned ferrite. See below.
