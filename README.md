@@ -7,11 +7,13 @@ https://github.com/hzeller/txtempus
 The amplifier circuit itself is from the work of Andreas Spiess, in particular his YouTube video here:
 https://youtu.be/6SHGAEhnsYk
 
-All boards include a way of selecting the VCC to the amplifier (3.3v / 5v), however please be sure to watch the video first as increasing the voltage to the amplifier can cause interference to other nearby receivers. With the exception of the "ultra compact" surface mount board each amplifier also includes an optional shutdown button to safely power down the Pi.
+All boards include a way of selecting the VCC to the amplifier (3.3v / 5v), however please be sure to watch the video first as increasing the voltage to the amplifier can cause interference to other nearby receivers. With the exception of the "sub compact" surface mount board each amplifier also includes an optional shutdown button to safely power down the Pi.
 
 **Example PCBs:**
 
 ![PCB examples](https://github.com/GOTO-GOSUB/Antenna-Amplifiers/blob/a565473eafd16990c48fda6feb0ad8221f1f548c/Amplifier%20Images/Amplifier%20and%20Compact.jpg)
+
+![PCB examples](https://github.com/GOTO-GOSUB/Antenna-Amplifiers/blob/bc6ef2cd6c2dc795e1626ea5f89cc4b4c28771ef/Amplifier%20Images/Pi%20Zero%20HAT,%20compact,%20sub%20compact%20SMT.jpg)
 
 **The "Compact" version directly mounted to a Pi Zero (with added headers) with a tuned 60Khz ferrite**
 
@@ -39,6 +41,10 @@ I have included Fritzing source files and Gerbers so you should be able to get t
 **What parts do I need ? Where can I get them ?**
 
 Please see the parts list attached for your choice of board. I have included links to suppliers of suitable parts so you can either buy them from there or confirm the specification if you would rather buy elsewhere. Please note that some parts are optional such as the shutdown button and you may wish to use wire links instead of switches to keep the overall height down if putting it into a case. If you are considering buying a pre-made tuned ferrite, please be sure to buy one that is correct for your region and to replace the capacitor with a wire link instead as this is not required. The capacitor is also not required (replace it with a wire link) if you are just going to use a coil of wire for your antenna. This is all in the parts lists, so don't worry.
+
+**What is the watch shown in the photographs ? ?**
+
+That is a Casio MTG-9000U G-Shock Solar Waveceptor. I bought it new what must be close to 20 years ago now and it's still going strong, although the rechargeable battery was showing signs of wear about a decade ago so I replaced that. Casio still make radio controlled watches that start at approx £35 for the WV-58U-1AVES.
 
 **Why use Fritzing ? Your PCB sucks !**
 
